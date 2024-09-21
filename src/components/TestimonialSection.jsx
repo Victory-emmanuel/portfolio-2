@@ -148,14 +148,17 @@ const TestimonialCarousel = () => {
           />
         ))}
       </div>
-      <div className="absolute top-1/2 -translate-y-1/2 left-0 right-0 flex justify-between z-10">
+      <div className="absolute top-1/2 -translate-y-1/2 left-0 right-0 flex justify-between  z-10">
         <IconButton
           variant="text"
           size="lg"
           onClick={prevTestimonial}
           className="rounded-full text-accent "
         >
-          <ChevronLeftIcon strokeWidth={2} className="w-6 h-6" />
+          <ChevronLeftIcon
+            strokeWidth={2}
+            className="w-6 h-6 md:mt-0 xx:mt-6 "
+          />
         </IconButton>
         <IconButton
           variant="text"
@@ -163,7 +166,10 @@ const TestimonialCarousel = () => {
           onClick={nextTestimonial}
           className="rounded-full text-accent"
         >
-          <ChevronRightIcon strokeWidth={2} className="w-6 h-6" />
+          <ChevronRightIcon
+            strokeWidth={2}
+            className="w-6 h-6 md:mt-0 xx:mt-6"
+          />
         </IconButton>
       </div>
     </div>

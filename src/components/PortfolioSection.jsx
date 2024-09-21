@@ -143,32 +143,34 @@ const PortfolioItem = ({
         <DialogHeader className="text-accent  font-semibold">
           {title}
         </DialogHeader>
-        <div className="xx:h-[75vh] md:h-[40rem] md:my-6 overflow-hidden overflow-y-scroll">
+        <div className=" md:my-6">
           <DialogBody divider className="h-[40rem] overflow-hidden">
             <img
               src={image}
               alt={title}
               className="w-full h-64 object-cover rounded-lg mb-4"
             />
-            <div className="mt-16">
-              <Typography className="text-lg mb-4 font-semibold text-primary">
-                {description}
-              </Typography>
-              <Typography className="text-base mb-4  text-primary">
-                {details}
-              </Typography>
-              <Typography variant="h6" className="mb-2 text-primary">
-                Technologies Used:
-              </Typography>
-              <div className="flex flex-wrap gap-2">
-                {technologies.map((tech, index) => (
-                  <span
-                    key={index}
-                    className="px-2 py-1 bg-blue-gray-50  text-accent rounded-full text-sm"
-                  >
-                    {tech}
-                  </span>
-                ))}
+            <div className="xx:h-[40vh] md:h-[15rem] overflow-hidden overflow-y-scroll">
+              <div className="mt-16  ">
+                <Typography className="text-lg mb-4 font-semibold text-primary">
+                  {description}
+                </Typography>
+                <Typography className="text-base mb-4  text-primary">
+                  {details}
+                </Typography>
+                <Typography variant="h6" className="mb-2 text-primary">
+                  Technologies Used:
+                </Typography>
+                <div className="flex flex-wrap gap-2">
+                  {technologies.map((tech, index) => (
+                    <span
+                      key={index}
+                      className="px-2 py-1 bg-blue-gray-50  text-accent rounded-full text-sm"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
           </DialogBody>

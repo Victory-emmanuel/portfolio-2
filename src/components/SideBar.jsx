@@ -42,10 +42,12 @@ const SideBar = () => {
       {isMobile && (
         <div className="fixed top-0 left-0 w-full h-16 flex justify-between items-center px-4 py-2 bg-secondary text-white z-50 md:hidden">
           {/* Logo */}
-          <div className="text-2xl font-bold">
-            <h1>
-              My<span className="text-accent">Logo</span>
-            </h1>
+          <div className="">
+            <img
+              src="https://i.postimg.cc/T2V3WLRY/cropped-image.png"
+              alt="logo"
+              className="ss:w-[4rem] ss:h-[4rem] xx:w-[3rem] xx:h-[3rem]  p-2 border-2 rounded-full border-accent"
+            />
           </div>
 
           {/* Toggle Button */}
@@ -65,10 +67,12 @@ const SideBar = () => {
         }`} // Hidden by default on small screens
       >
         {/* Logo */}
-        <div className="text-3xl pl-4 py-4  font-bold">
-          <h1>
-            My<span className="text-accent">Logo</span>
-          </h1>
+        <div className="p-4 ">
+          <img
+            src="https://i.postimg.cc/T2V3WLRY/cropped-image.png"
+            alt="logo"
+            className="w-[4rem] h-[4rem] p-2 border-2 rounded-full border-accent xx:hidden md:block"
+          />
         </div>
         {/* Sidebar Links */}
         <nav className="mt-10">
