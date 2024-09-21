@@ -132,7 +132,7 @@ const PortfolioItem = ({
 
       <Dialog
         size="md"
-        className="bg-black h-fit"
+        className="bg-black md:h-[100dvh] ss:h-[90dvh] xx:h-[80dvh] overflow-hidden overflow-y-scroll "
         open={isDialogOpen}
         handler={() => setIsDialogOpen(false)}
         animate={{
@@ -144,7 +144,7 @@ const PortfolioItem = ({
           {title}
         </DialogHeader>
         <div className=" md:my-6">
-          <DialogBody divider className="h-[40rem] overflow-hidden">
+          <DialogBody className="h-[40rem] ss:my-0 xx:my-[5rem]  ">
             <img
               src={image}
               alt={title}
@@ -158,7 +158,7 @@ const PortfolioItem = ({
                 <Typography className="text-base mb-4  text-primary">
                   {details}
                 </Typography>
-                <Typography variant="h6" className="mb-2 text-primary">
+                <Typography variant="h6" className="ss:mb-2 mb-6 text-primary">
                   Technologies Used:
                 </Typography>
                 <div className="flex flex-wrap gap-2">
