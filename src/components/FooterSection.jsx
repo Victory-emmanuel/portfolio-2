@@ -36,7 +36,7 @@ const FooterSection = () => {
 
   return (
     <motion.footer
-      className="bg-secondary text-primary py-8  md:ml-64"
+      className=" text-primary py-8  md:ml-64"
       initial="hidden"
       animate="visible"
       variants={containerVariants}

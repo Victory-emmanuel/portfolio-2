@@ -198,7 +198,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="min-h-screen p-8 ml-0 md:ml-64 mt-16">
+    <section id="contact" className="min-h-screen p-8 ml-0 md:ml-64 mt-16 bg-secondary">
       <motion.div
         initial="hidden"
         animate="visible"

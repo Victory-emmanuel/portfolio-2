@@ -180,7 +180,7 @@ export default function TestimonialSection() {
   return (
     <section
       id="testimonial"
-      className="min-h-screen p-8 ml-0 md:ml-64 mt-16 flex flex-col bg-secondary justify-center"
+      className="min-h-screen p-8 ml-0 md:ml-64 mt-16 flex flex-col  justify-center"
     >
       <motion.div
         initial={{ opacity: 0, y: -50 }}

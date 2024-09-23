@@ -96,7 +96,7 @@ export default function HeroSection() {
       </motion.div>
 
       <motion.div
-        className="md:w-1/2 h-auto "
+        className=" h-auto "
         variants={itemVariants}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

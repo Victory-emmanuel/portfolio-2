@@ -317,7 +317,7 @@ export default function MyServiceSection() {
 
   return (
     <motion.section
-      className="min-h-screen p-8 ml-0 md:ml-64 mt-16"
+      className="min-h-screen p-8 ml-0 md:ml-64 mt-16 bg-secondary"
       initial="hidden"
       animate="visible"
       variants={containerVariants}

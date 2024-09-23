@@ -198,7 +198,7 @@ const PortfolioItem = ({
 
 export default function PortfolioSection() {
   return (
-    <section id="portfolio" className="min-h-screen p-8  ml-0 md:ml-64 mt-16">
+    <section id="portfolio" className="min-h-screen p-8  ml-0 md:ml-64 mt-16 ">
       <motion.div
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}

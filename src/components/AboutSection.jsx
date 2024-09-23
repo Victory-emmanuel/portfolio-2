@@ -9,7 +9,7 @@ const CircularProgressBar = ({ percentage }) => {
   const circumference = 2 * Math.PI * 45; // 45 is the radius of the circle
 
   return (
-    <div className="relative w-32 h-32">
+    <div className="relative w-32 h-32 ">
       <svg className="w-full h-full" viewBox="0 0 100 100">
         <circle
           className="text-gray-200"
@@ -79,7 +79,7 @@ export default function AboutSection() {
 
   return (
     <motion.section
-      className="flex flex-col md:flex-row items-center justify-between min-h-screen p-8 ml-0 md:ml-64 "
+      className="flex flex-col md:flex-row items-center justify-between min-h-screen p-8 ml-0 md:ml-64 bg-secondary "
       initial="hidden"
       animate="visible"
       variants={containerVariants}
