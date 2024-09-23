@@ -71,7 +71,7 @@ const SideBar = () => {
           <img
             src="https://i.postimg.cc/T2V3WLRY/cropped-image.png"
             alt="logo"
-            className="w-[4rem] h-[4rem] p-2 border-2 rounded-full border-accent xx:hidden md:block"
+            className="w-[4rem] h-[4rem] px-2 border-2 rounded-full border-accent xx:hidden md:block"
           />
         </div>
         {/* Sidebar Links */}

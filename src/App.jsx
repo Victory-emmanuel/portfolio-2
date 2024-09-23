@@ -10,7 +10,7 @@ import {
 } from "./components/components";
 import { BrowserRouter } from "react-router-dom";
 import MouseTracker from "./components/MouseTracker";
-import Store from "./components/Store";
+
 function App() {
   return (
     <>
@@ -19,7 +19,7 @@ function App() {
           <SideBar />
           <MouseTracker />
           <HeroSection />
-          <Store />
+
           <AboutSection />
           <PortfolioSection />
           <MyServiceSection />
