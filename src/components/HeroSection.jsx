@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Typography, Button } from "@material-tailwind/react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import Whatsapp from "./Whatsapp";
 
 export default function HeroSection() {
   const [text] = useTypewriter({
@@ -93,7 +92,6 @@ export default function HeroSection() {
               Contact Me
             </a>
           </Button>
-          <Whatsapp />
         </motion.div>
       </motion.div>
 
